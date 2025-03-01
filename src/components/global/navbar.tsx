@@ -8,9 +8,15 @@ const Navbar = async (props: Props) => {
   return (
     <header className="bg-black/40 fixed right-0 left-0 top-0 py-4 px-4 backdrop-blur-lg z-[100] flex items-center border-b border-natural-900 justify-between">
         <aside className="flex items-center gap-[2px]">
-            <p className="text-3xl font-bold">Flu</p>
-            <Image src="/FluXeLogo.png" alt="FluXe Logo" width={20} height={20} className="shadow-sm" />
-            <p className='text-3xl font-bold'>ie</p>
+        <p className="text-3xl font-bold">Flu</p>
+      <Image
+        src="/FluXeLogo.png"
+        alt="FluXe Logo"
+        width={20}
+        height={20}
+        className="shadow-sm"
+      />
+      <p className="text-3xl font-bold">ie</p>
             <nav className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] hidden md:block">
                 <ul className="flex items-center gap-4 list-none">
                     <li>
